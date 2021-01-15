@@ -1,0 +1,205 @@
+body {
+  font-family: "roboto", "raleway", sans-serif;
+}
+/*=============COMPONENTS================*/
+.title-what-we-do,
+.title-our-team {
+font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+   /*=============END COMPONENTS================*/
+
+/* =========HEADER========== */
+.logotype {
+  cursor: pointer;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.logo-span {
+  color: #212121;
+}
+.contacts-list-phone {
+  color: #757575;
+}
+.contacts-list-phone:focus,
+.contacts-list-phone:hover {
+  color: #757575;
+  cursor: pointer;
+}
+.contacts-list-mail {
+  color: #2196f3;
+}
+.contacts-list-mail:focus,
+.contacts-list-mail:hover {
+  color: #2196f3;
+  cursor: pointer;
+}
+.navigation-list-links {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.contacts-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+
+.navigation-list-link-mark {
+  color: #2196f3;
+}
+/* =========END HEADER========== */
+
+/*==========HERO================*/
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /*color:#ffffff;*/
+}
+
+.main-butn {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+}
+/*==========END HERO================*/
+/*==========ABOUT US================*/
+.list-about-us-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.list-about-us-discription {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*==========END ABOUT US================*/
+
+}
+/*=============COMANDA================*/
+.names-our-team {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-position {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*=============END COMANDA================*/
+
+/*=============FOOTER=================*/
+
+.footer-adress {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /*color: #ffffff*/
+}
+.footer-contacts {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /*color: rgba(255, 255, 255, 0.6);*/
+}
+/*==============PORTFOLIO=================*/
+
+/*=============HEADER PORTFOLIO===============*/
+.contacts-portfolio,
+.contacts-portfolio-mail {
+font-family: Roboto;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+color: #757575;
+cursor: pointer;
+}
+.contacts-portfolio-mail:hover,
+.contacts-portfolio-mail:focus {
+    color:#2196F3;
+}
+/*=============END HEADER PORTFOLIO===============*/
+
+/*=============BUTTON PORTFOLIO================*/
+
+.butn-portfolio {
+font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+letter-spacing: 0.03em;
+color: #212121;
+cursor: pointer;
+}
+.butn-portfolio:focus,
+.butn-portfolio:hover {
+color:#212121;
+background-color:#212121;
+}
+.butn-all {
+color: #ffffff; 
+background-color: #2196F3;
+}
+/*=============END BUTTON PORTFOLIO================*/
+
+/*=============EXAMPLES==================*/
+.title-list-examples {
+font-family: Roboto;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.list-examples-discrabe{
+font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.list-examples-item {
+    cursor: pointer;
+}
+/*=============END EXAMPLES==================*/
+
+
