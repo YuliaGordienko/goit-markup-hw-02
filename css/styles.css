@@ -3,7 +3,7 @@
 }
 
   body {
-    font-family: "roboto", "raleway", sans-serif;
+    font-family: "roboto", sans-serif;
   }
   /*=============COMPONENTS================*/
   .title-what-we-do,
@@ -15,6 +15,18 @@
     letter-spacing: 0.03em;
     color: #212121;
   }
+    .lists {
+    list-style: none;
+  }
+   .logotype,
+   .navigation-list-links,
+   .contacts-list-mail,
+   .contacts-list-phone,
+   .contacts-portfolio-mail,
+   .contacts-portfolio {
+      text-decoration: none;
+  }
+  
   /*=============END COMPONENTS================*/
 
   /* =========HEADER========== */
@@ -72,7 +84,10 @@
     line-height: 1.364;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    /*color:#ffffff;*/
+  }
+  .hero-section {
+      background-color: #2F303A;
+    color:#ffffff;
   }
 
   .main-butn {
@@ -83,6 +98,7 @@
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.06em;
+    cursor: pointer;
   }
   /*==========END HERO================*/
   /*==========ABOUT US================*/
@@ -122,6 +138,9 @@
   letter-spacing: 0.03em;
   color: #757575;
 }
+.our-team-section {
+    background-color: #F5F4FA;
+}
 /*=============END COMANDA================*/
 
 /*=============FOOTER=================*/
@@ -141,6 +160,10 @@
   line-height: 1.714;
   letter-spacing: 0.03em;
   /*color: rgba(255, 255, 255, 0.6);*/
+}
+.footer {
+    background-color: #2F303A;
+    color: rgba(255, 255, 255, 0.6);
 }
 /*==============PORTFOLIO=================*/
 
@@ -163,7 +186,7 @@
 
 /*=============BUTTON PORTFOLIO================*/
 
-.butn-portfolio {
+.butn-list-item {
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
@@ -178,8 +201,14 @@
   background-color: #212121;
 }
 .butn-all {
+    font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
   color: #ffffff;
   background-color: #2196f3;
+  cursor: pointer;
 }
 /*=============END BUTTON PORTFOLIO================*/
 
@@ -204,3 +233,4 @@
   cursor: pointer;
 }
 /*=============END EXAMPLES==================*/
+
