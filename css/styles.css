@@ -1,106 +1,109 @@
-body {
-  font-family: "roboto", "raleway", sans-serif;
-}
-/*=============COMPONENTS================*/
-.title-what-we-do,
-.title-our-team {
-font-family: Roboto;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.167;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-   /*=============END COMPONENTS================*/
-
-/* =========HEADER========== */
-.logotype {
-  cursor: pointer;
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
-  color: #2196f3;
-}
-.logo-span {
-  color: #212121;
-}
-.contacts-list-phone {
-  color: #757575;
-}
-.contacts-list-phone:focus,
-.contacts-list-phone:hover {
-  color: #757575;
-  cursor: pointer;
-}
-.contacts-list-mail {
-  color: #2196f3;
-}
-.contacts-list-mail:focus,
-.contacts-list-mail:hover {
-  color: #2196f3;
-  cursor: pointer;
-}
-.navigation-list-links {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
-  color: #212121;
-}
-.contacts-list {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
+:root {
+  --accent-color: #2196F3;
 }
 
-.navigation-list-link-mark {
-  color: #2196f3;
-}
-/* =========END HEADER========== */
+  body {
+    font-family: "roboto", "raleway", sans-serif;
+  }
+  /*=============COMPONENTS================*/
+  .title-what-we-do,
+  .title-our-team {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  /*=============END COMPONENTS================*/
 
-/*==========HERO================*/
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.364;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  /*color:#ffffff;*/
-}
+  /* =========HEADER========== */
+  .logotype {
+    cursor: pointer;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  .logo-span {
+    color:var(--accent-color);
+  }
+  .contacts-list-phone {
+    color: #757575;
+  }
+  .contacts-list-phone:focus,
+  .contacts-list-phone:hover {
+    color: #757575;
+    cursor: pointer;
+  }
+  .contacts-list-mail {
+    color: var(--accent-color);
+  }
+  .contacts-list-mail:focus,
+  .contacts-list-mail:hover {
+    color: var(--accent-color);
+    cursor: pointer;
+  }
+  .navigation-list-links {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: #212121;
+  }
+  .contacts-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+  }
 
-.main-butn {
-  color: #ffffff;
-  background-color: #2196f3;
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.06em;
-}
-/*==========END HERO================*/
-/*==========ABOUT US================*/
-.list-about-us-title {
-  font-family: Roboto;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
-}
-.list-about-us-discription {
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-/*==========END ABOUT US================*/
+  .navigation-list-link-mark {
+    color: var(--accent-color);
+  }
+  /* =========END HEADER========== */
 
+  /*==========HERO================*/
+  .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    /*color:#ffffff;*/
+  }
+
+  .main-butn {
+    color: #ffffff;
+    background-color: #2196f3;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+  }
+  /*==========END HERO================*/
+  /*==========ABOUT US================*/
+  .list-about-us-title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+  }
+  .list-about-us-discription {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+  /*==========END ABOUT US================*/
 }
 /*=============COMANDA================*/
 .names-our-team {
@@ -144,62 +147,60 @@ font-family: Roboto;
 /*=============HEADER PORTFOLIO===============*/
 .contacts-portfolio,
 .contacts-portfolio-mail {
-font-family: Roboto;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.143;
-letter-spacing: 0.02em;
-color: #757575;
-cursor: pointer;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #757575;
+  cursor: pointer;
 }
 .contacts-portfolio-mail:hover,
 .contacts-portfolio-mail:focus {
-    color:#2196F3;
+  color: var(--accent-color);
 }
 /*=============END HEADER PORTFOLIO===============*/
 
 /*=============BUTTON PORTFOLIO================*/
 
 .butn-portfolio {
-font-family: Roboto;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.625;
-letter-spacing: 0.03em;
-color: #212121;
-cursor: pointer;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
 }
 .butn-portfolio:focus,
 .butn-portfolio:hover {
-color:#212121;
-background-color:#212121;
+  color: #212121;
+  background-color: #212121;
 }
 .butn-all {
-color: #ffffff; 
-background-color: #2196F3;
+  color: #ffffff;
+  background-color: #2196f3;
 }
 /*=============END BUTTON PORTFOLIO================*/
 
 /*=============EXAMPLES==================*/
 .title-list-examples {
-font-family: Roboto;
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: #212121;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
 }
-.list-examples-discrabe{
-font-family: Roboto;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.875;
-letter-spacing: 0.03em;
-color: #757575;
+.list-examples-discrabe {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 .list-examples-item {
-    cursor: pointer;
+  cursor: pointer;
 }
 /*=============END EXAMPLES==================*/
-
-
