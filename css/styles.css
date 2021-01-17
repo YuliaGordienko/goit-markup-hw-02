@@ -1,126 +1,134 @@
 :root {
-  --accent-color: #2196F3;
+  --accent-color: #2196f3;
+  --title-color: #212121;
+  --text-color: #757575;
+  --white-color: #ffffff;
+  --background-color-grey: #2f303a;
 }
 
-  body {
-    font-family: "roboto", sans-serif;
-  }
-  /*=============COMPONENTS================*/
-  .title-what-we-do,
-  .title-our-team {
-    font-family: Roboto;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.167;
-    letter-spacing: 0.03em;
-    color: #212121;
-  }
-    .lists {
-    list-style: none;
-  }
-   .logotype,
-   .navigation-list-links,
-   .contacts-list-mail,
-   .contacts-list-phone,
-   .contacts-portfolio-mail,
-   .contacts-portfolio {
-      text-decoration: none;
-  }
-  
-  /*=============END COMPONENTS================*/
-
-  /* =========HEADER========== */
-  .logotype {
-    cursor: pointer;
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.192;
-    letter-spacing: 0.03em;
-    color: #212121;
-  }
-  .logo-span {
-    color:var(--accent-color);
-  }
-  .contacts-list-phone {
-    color: #757575;
-  }
-  .contacts-list-phone:focus,
-  .contacts-list-phone:hover {
-    color: #757575;
-    cursor: pointer;
-  }
-  .contacts-list-mail {
-    color: var(--accent-color);
-  }
-  .contacts-list-mail:focus,
-  .contacts-list-mail:hover {
-    color: var(--accent-color);
-    cursor: pointer;
-  }
-  .navigation-list-links {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.02em;
-    color: #212121;
-  }
-  .contacts-list {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.02em;
-  }
-
-  .navigation-list-link-mark {
-    color: var(--accent-color);
-  }
-  /* =========END HEADER========== */
-
-  /*==========HERO================*/
-  .hero-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.364;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-  }
-  .hero-section {
-      background-color: #2F303A;
-    color:#ffffff;
-  }
-
-  .main-butn {
-    color: #ffffff;
-    background-color: #2196f3;
-    font-family: Roboto;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 0.06em;
-    cursor: pointer;
-  }
-  /*==========END HERO================*/
-  /*==========ABOUT US================*/
-  .list-about-us-title {
-    font-family: Roboto;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-  }
-  .list-about-us-discription {
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    color: #757575;
-  }
-  /*==========END ABOUT US================*/
+body {
+  font-family: "Roboto Family", sans-serif;
 }
+/*=============COMPONENTS================*/
+.title-what-we-do,
+.title-our-team {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+.lists {
+  list-style: none;
+}
+.logotype,
+.navigation-list-links,
+.contacts-list-mail,
+.contacts-list-phone,
+.contacts-portfolio {
+  text-decoration: none;
+}
+
+/*=============END COMPONENTS================*/
+
+/* =========HEADER========== */
+.logotype {
+  cursor: pointer;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+.logo-span {
+  color: var(--accent-color);
+}
+.contacts-list-phone {
+  color: var(--text-color);
+}
+.contacts-list-phone:focus,
+.contacts-list-phone:hover {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+.contacts-list-mail {
+  color: var(--text-color);
+}
+.contacts-list-mail:focus,
+.contacts-list-mail:hover {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+.navigation-list-links {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.navigation-list-links:hover,
+.navigation-list-links:focus {
+  color: var(--accent-color);
+}
+
+.contacts-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+
+.navigation-list-link-mark {
+  color: var(--accent-color);
+}
+/* =========END HEADER========== */
+
+/*==========HERO================*/
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-section {
+  background-color: var(--background-color-grey);
+  color: var(--white-color);
+}
+
+.main-butn {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+/*==========END HERO================*/
+/*==========ABOUT US================*/
+.list-about-us-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+.list-about-us-discription {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/*==========END ABOUT US================*/
+
 /*=============COMANDA================*/
 .names-our-team {
   font-family: Roboto;
@@ -128,7 +136,7 @@
   font-size: 16px;
   line-height: 1.188;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
 }
 .team-position {
   font-family: Roboto;
@@ -136,10 +144,10 @@
   font-size: 16px;
   line-height: 1.188;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
 }
 .our-team-section {
-    background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 /*=============END COMANDA================*/
 
@@ -151,7 +159,7 @@
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  /*color: #ffffff*/
+  color: var(--white-color);
 }
 .footer-contacts {
   font-family: Roboto;
@@ -162,24 +170,23 @@
   /*color: rgba(255, 255, 255, 0.6);*/
 }
 .footer {
-    background-color: #2F303A;
-    color: rgba(255, 255, 255, 0.6);
+  background-color: var(--background-color-grey);
+  color: rgba(255, 255, 255, 0.6);
 }
 /*==============PORTFOLIO=================*/
 
 /*=============HEADER PORTFOLIO===============*/
-.contacts-portfolio,
-.contacts-portfolio-mail {
+.contacts-portfolio {
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-color);
   cursor: pointer;
 }
-.contacts-portfolio-mail:hover,
-.contacts-portfolio-mail:focus {
+.contacts-portfolio:hover,
+.contacts-portfolio:focus {
   color: var(--accent-color);
 }
 /*=============END HEADER PORTFOLIO===============*/
@@ -192,22 +199,26 @@
   font-size: 16px;
   line-height: 1.625;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
   cursor: pointer;
 }
+.butn-list-item:focus,
+.butn-list-item:hover {
+  background-color: var(--accent-color);
+}
+
 .butn-portfolio:focus,
 .butn-portfolio:hover {
-  color: #212121;
-  background-color: #212121;
+  color: var(--accent-color);
 }
 .butn-all {
-    font-family: Roboto;
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
   letter-spacing: 0.03em;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--white-color);
+  background-color: var(--accent-color);
   cursor: pointer;
 }
 /*=============END BUTTON PORTFOLIO================*/
@@ -219,7 +230,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--title-color);
 }
 .list-examples-discrabe {
   font-family: Roboto;
@@ -227,10 +238,9 @@
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
 }
 .list-examples-item {
   cursor: pointer;
 }
 /*=============END EXAMPLES==================*/
-
