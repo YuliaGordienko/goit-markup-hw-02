@@ -7,12 +7,12 @@
 }
 
 body {
-  font-family: "Roboto Family", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 /*=============COMPONENTS================*/
 .title-what-we-do,
 .title-our-team {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
@@ -101,7 +101,7 @@ body {
 .main-butn {
   color: var(--white-color);
   background-color: var(--accent-color);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
@@ -111,7 +111,7 @@ body {
 /*==========END HERO================*/
 /*==========ABOUT US================*/
 .list-about-us-title {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -120,7 +120,7 @@ body {
   color: var(--title-color);
 }
 .list-about-us-discription {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -131,7 +131,7 @@ body {
 
 /*=============COMANDA================*/
 .names-our-team {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.188;
@@ -139,7 +139,7 @@ body {
   color: var(--title-color);
 }
 .team-position {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.188;
@@ -154,7 +154,7 @@ body {
 /*=============FOOTER=================*/
 
 .footer-adress {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -162,7 +162,7 @@ body {
   color: var(--white-color);
 }
 .footer-contacts {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -173,11 +173,14 @@ body {
   background-color: var(--background-color-grey);
   color: rgba(255, 255, 255, 0.6);
 }
+.logo-span-foot {
+  color: var(--white-color);
+}
 /*==============PORTFOLIO=================*/
 
 /*=============HEADER PORTFOLIO===============*/
 .contacts-portfolio {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
@@ -194,7 +197,7 @@ body {
 /*=============BUTTON PORTFOLIO================*/
 
 .butn-list-item {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
@@ -205,27 +208,14 @@ body {
 .butn-list-item:focus,
 .butn-list-item:hover {
   background-color: var(--accent-color);
+  color: var(--white-color);
 }
 
-.butn-portfolio:focus,
-.butn-portfolio:hover {
-  color: var(--accent-color);
-}
-.butn-all {
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
-  letter-spacing: 0.03em;
-  color: var(--white-color);
-  background-color: var(--accent-color);
-  cursor: pointer;
-}
 /*=============END BUTTON PORTFOLIO================*/
 
 /*=============EXAMPLES==================*/
 .title-list-examples {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -233,7 +223,7 @@ body {
   color: var(--title-color);
 }
 .list-examples-discrabe {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
